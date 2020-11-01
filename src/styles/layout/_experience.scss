@@ -2,9 +2,29 @@
   grid-column: 1;
   grid-row: 2;
   display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10vh 1fr;
+  h3 {
+    color: $interApt;
+    font-size: 3rem;
+  }
+  ul {
+    color: $lineGreen;
+    font-size: 2.2rem;
+  }
+  p {
+    font-size: 1.8rem;
+    color: white;
+  }
   h2 {
+    grid-row: 1;
+    grid-column: 1;
     font-size: 6rem;
     justify-self: right;
     color: cornflowerblue;
+  }
+  &--interapt {
+    grid-column: 1;
+    grid-row: 2;
   }
 }
