@@ -51,6 +51,7 @@ const ContactMain = () => (
           <ContactRight />
         </div>
       </div>
+      <HortizontalLine />
     </motion.div>
   </motion.section>
 )

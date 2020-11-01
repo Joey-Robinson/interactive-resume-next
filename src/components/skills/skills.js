@@ -8,6 +8,8 @@ const Skills = () => (
     <SkillsLeadership />
     <SkillsCommunication />
     <SkillsProblem />
+    {/* <SkillsPersonable />
+    <SkillsTeaching /> */}
   </section>
 )
 

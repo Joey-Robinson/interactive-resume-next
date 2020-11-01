@@ -1,0 +1,10 @@
+.experience {
+  grid-column: 1;
+  grid-row: 2;
+  display: grid;
+  h2 {
+    font-size: 6rem;
+    justify-self: right;
+    color: cornflowerblue;
+  }
+}
