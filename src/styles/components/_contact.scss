@@ -1,0 +1,22 @@
+.contact {
+  margin: 1.5rem 0 0 0;
+  display: grid;
+  width: 27vw;
+  grid-template-rows: 1;
+  grid-template-columns: 1fr 1fr;
+  ul {
+    font-size: 2rem;
+    list-style: none;
+    a {
+      color: #ff2a54;
+    }
+  }
+  &--left {
+    justify-self: left;
+    margin: 0 0 0 1.5rem;
+  }
+  &--right {
+    justify-self: right;
+    text-align: right;
+  }
+}

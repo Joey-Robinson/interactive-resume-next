@@ -1,0 +1,24 @@
+.skills {
+  grid-column: 2;
+  font-size: 2.2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  margin: 1.5rem 0 0 1.5rem;
+  border-left: 4.55px solid $lineGreen;
+  h1, h2, h3, h4, h5 {
+    color: $interApt;
+  }
+  h3 {
+    text-align: center;
+  }
+  color: white;
+  &--leadership {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  &--communication {
+    grid-column: 2;
+    grid-row: 1;
+  }
+}

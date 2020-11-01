@@ -1,0 +1,19 @@
+.home {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column: 1;
+  grid-row: 1;
+  hgroup {
+    margin: 0 0 0 1.5rem;
+    h1 {
+      font-size: 8rem;
+      color: cornflowerblue;
+    }
+    h2 {
+      color: orange;
+      font-size: 4rem;
+      margin: 0 0 0 22.5rem;
+    }
+  }
+}
