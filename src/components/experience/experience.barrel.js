@@ -1,8 +1,8 @@
 import React from "react"
 
-const InteraptExperience = () => (
-  <div className="experience--interapt">
-    <h3>Interapt Experience</h3>
+const BarrelExperience = () => (
+  <div className="experience--barrel">
+    <h3>Cracker Barrel Experience</h3>
     <ul>
       <li>
         Training with Erica Judd:
@@ -38,4 +38,4 @@ const InteraptExperience = () => (
   </div>
 )
 
-export default InteraptExperience
+export default BarrelExperience
