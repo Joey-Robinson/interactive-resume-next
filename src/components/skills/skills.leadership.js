@@ -40,7 +40,7 @@ const SkillsLeadership = () => (
         skills), are one of my talents. I'm able to quickly and easily - if
         needed - take control & ownership of a situation and expertly navigate
         it. I personally think that being able to no only lead, but follow, is
-        momumental for any would be leader, as we can all learn from any person
+        monumental for any would be leader, as we can all learn from any person
         or source.
         <br />
         <br />
