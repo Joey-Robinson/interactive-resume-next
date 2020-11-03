@@ -3,31 +3,34 @@ import BarrelExperience from "./experience.barrel"
 import InteraptExperience from "./experience.interapt"
 
 const Experience = () => {
-  const [barrelExperience, setBarrelExperience] = useState(false)
-  const [interaptExperience, setInteraptExperience] = useState(false)
+  const [toggle, setToggle] = useState(false)
   return (
     <>
       <section className="experience">
-        <h2>Experience</h2>
-        <button
-          className="experience--toggleb"
-          onClick={() => setBarrelExperience(!barrelExperience)}
+        <div className="experience--heading">
+          <h2>Experience</h2>
+          <button
+            className="experience--toggle"
+            onClick={() => setToggle(!toggle)}
+          >
+            {toggle ? "Interapt Experience" : "Cracker Barrel Experience"}
+          </button>
+        </div>
+        <span
+          className="experience--containerb"
+          style={{
+            display: toggle ? "grid" : "none",
+          }}
         >
-          Barrel
-        </button>
-        <span style={{ display: "none" }}>
-          {/* <span style={{ display: barrelExperience ? "block" : "none" }}> */}
           <BarrelExperience />
         </span>
 
-        <button
-          className="experience--togglei"
-          onClick={() => setInteraptExperience(!interaptExperience)}
+        <span
+          className="experience--containeri"
+          style={{
+            display: !toggle ? "grid" : "none",
+          }}
         >
-          Interapt
-        </button>
-        <span style={{ display: "none" }}>
-          {/* <span style={{ display: interaptExperience ? "block" : "none" }}> */}
           <InteraptExperience />
         </span>
       </section>

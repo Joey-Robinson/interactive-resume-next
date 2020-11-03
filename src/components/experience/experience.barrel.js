@@ -5,33 +5,29 @@ const BarrelExperience = () => (
     <h3>Cracker Barrel Experience</h3>
     <ul>
       <li>
-        Training with Erica Judd:
+        Training Myself
         <p>
-          Over the past 2 weeks, and some time to come, I have trained along
-          side Erica to prepare new hires for their time on the phone. I have
-          been able, through my own time on the phone, to give my personal
-          experience and further their knowledge before even handling a call.
-          I've been able give them a plethora of skills & knowledge that will
-          not only better them, but have a positive reflection on us.
+          Through my own dilligence and persistence, I have become an incredible
+          asset at Cracker Barrel. I've worked tireslessly to provide the best
+          possible experience for guests - similar to my call taking abilities -
+          that are coming and going from Cracker Barrel.
+        </p>
+        <p>
+          Through either asking endless questions, to trial and error, I have
+          become an expert of sorts in the world of Cracker Barrel retail.
+          Because of this, my customer (guest) services have grown daily and
+          continue to grow now.
         </p>
       </li>
       <li>
-        Assisting new hires
+        Training new hires
         <p>
-          While my 'formal' training here at Interapt only extends to what's
-          recorded with Erica, I have a proven record of assisting new hires
-          when possible. Either through text or video, I've been able to help
-          other CSA's with issues they've struggled with and have gone above and
-          beyond in ensuring that they're not facing the same issue down the
-          line.
-        </p>
-      </li>
-      <li>
-        Self Improvement
-        <p>
-          I by no means consider myself the "best" but I strive to be. I train
-          myself daily by reading KB's & previous tickets to further improve by
-          own skillset
+          When someone joins the retail team of Cracker Barrel, I'm often the
+          one to train them. I try my best to not only inspire them and give
+          them confidence, I give them the freedom to make their own decisions.
+          Doing this allows me to train an individual quickly and seemlessly.
+          This also has the added benefit of allowing me to instill confidence
+          in a new hire, which can often be the single most important skill.
         </p>
       </li>
     </ul>
